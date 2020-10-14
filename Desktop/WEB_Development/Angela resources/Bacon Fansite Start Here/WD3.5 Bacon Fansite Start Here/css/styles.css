@@ -1,0 +1,29 @@
+/*************Element Tag***********************/
+title {
+    font-style: italic;
+}
+body {
+    background-color: rosybrown;
+}
+h1 {font-style: italic;
+    font-weight: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: sandybrown;
+}
+img:hover{background-color: rgb(200, 255, 0);}
+/*************Class Tag***********************/
+.bacon{
+    color: antiquewhite;
+}
+.first {color: mintcream;}
+.image {
+    background-color: tomato;
+    border-radius: 50%;
+    /*background-color: rgb(200, 255, 0);*/
+    
+}
+/*************Id Tag***********************/
+#heading{
+    color: tomato;
+    font-size: 100px;
+}

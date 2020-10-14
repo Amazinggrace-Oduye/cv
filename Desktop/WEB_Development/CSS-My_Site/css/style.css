@@ -4,11 +4,6 @@ margin: 0;
 text-align: center;
 font-family: 'Merriweather', serif;
 }
-.Top-container{
-    background-color: lightcyan;
-    position: relative;  
-    padding-top: 100px;  
-}
 
 a {
     color: teal;
@@ -31,6 +26,7 @@ h2 {
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: bold;
+    margin: 50px auto;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -39,16 +35,33 @@ h3 {
 h4 {
     color: #66BFBF; 
 }
-hr {
-    border-style: dotted none none none;
+.rule{
+    
+    border-style: dotted none none none ;
     border-width: 5px;
     border-color:  #DCDCDC;
     width: 5%;
     margin: 100px auto;
+    
+    
 }
 p {
     line-height: 2;
+    width: 100%;
+   
 }
+.Top-container{
+    width: 100%;
+    background-color: lightcyan;
+    position: relative;  
+    
+   }
+.name {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
 .my {
 text-decoration: underline;
 }
@@ -60,16 +73,32 @@ text-decoration: underline;
 .Bottom-cloud {
     position: absolute;
     left: 250px;
-    bottom: 300px;
+    bottom: 250px;
+}
+.mountain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .middle-container{
-    margin: 100px 0;
+    margin:auto;
+    width: 100%;
+    text-align: center;
+   
 }
-
+.my_pics {
+    margin: 50px auto; 
+}
+.skills {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
 .skill-row {
     width: 60%;
     text-align: left;
-    margin: 100px auto;
+    margin: 50px auto;
     
 }
 .worker-row {
@@ -77,13 +106,7 @@ width: 25%;
 float: left;
 margin-right: 30px;
 }
-.email {
-    margin: 10px auto;
-    display: inline-block;
-    position: absolute;
-    left: 650px;
-    top: 3200px;
-}
+
 .Event-row {
     width: 25%;
     float: right;
@@ -92,17 +115,24 @@ margin-right: 30px;
 
 .bottom-container {
     background-color: #66BFBF;
-    margin: 0 auto;
-    padding: 50px 0 20px;
+    width: 100%;
+    margin: auto;
+    padding: 50px 0 100px;
+    text-align: center;
 
-    
+  }
+.footer-link {
+    color: teal;
 }
 .cpoy-right {
     color: mistyrose;
     font-size: 0.75rem;
     padding: 20px 0;
+    margin: auto;
+    width: 100%;
+
 }
-.contact-me{
+#contact-me{
     text-align: center;
     width:100%;
     margin: auto;
@@ -111,16 +141,18 @@ margin-right: 30px;
 .coach {
     width: 25%;
     margin: 40px auto 60px auto ;
-    padding-bottom: 40px;
+
+}
+.profile {
+    text-align: center;
+    width: 100%;
+    
 }
 .intro-1 {
     width: 30%;
     margin: auto;
 }
-.intro-2 {
-    width: 30%;
-    margin: auto;
-}
+
 .hire-me {
     width: 30%;
     margin: auto;
@@ -129,7 +161,7 @@ margin-right: 30px;
     font-weight: bold;
 }
 .btn {
-    margin-left: 0px;
+   
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
